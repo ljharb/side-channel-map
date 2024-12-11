@@ -8,7 +8,7 @@ declare namespace getSideChannelMap {
 	};
 }
 
-declare function getSideChannelMap<V, K>(): getSideChannelMap.Channel<K, V>;
+declare function getSideChannelMap<K, V>(): getSideChannelMap.Channel<K, V>;
 
 declare const x: false | typeof getSideChannelMap;
 
